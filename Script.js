@@ -46,7 +46,7 @@ function clearAll() {
     carouselOnly.classList.add("d-none");
     kontakt.classList.add("d-none");
     document.getElementById("textScript").style.fontFamily= 'Bricolage Grotesque', 'sans-serif';
-    document.getElementById("textScript").style.fontSize= '22px';
+    document.getElementById("textScript").style.fontSize= '1rem';
 }
 
 document.getElementById('whoIam').addEventListener('click',WhoIam);

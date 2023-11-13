@@ -1,0 +1,37 @@
+.name, .motto {
+    font-family: 'Caveat', cursive;
+    font-weight: bold;
+}
+
+
+    @keyframes color {
+        0%   { background: #33CCCC; }
+        20%  { background: #33CC36; }
+        40%  { background: #B8CC33; }
+        60%  { background: #FCCA00; }
+        80%  { background: #33CC36; }
+        100% { background: #33CCCC; }
+      }
+      
+      .backgroundimage {
+        background: #33CCCC; /* Fallback */
+        animation: color 9s infinite linear;
+        text-align: center;
+        
+        padding: 2em;
+      }
+
+.backgroundstill {
+  background-image: url("./Photo/background2a.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: black;
+  font-weight: bold;
+} 
+
+a {
+    text-decoration: none;
+}
+

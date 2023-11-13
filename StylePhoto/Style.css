@@ -1,44 +1,51 @@
 body {
-    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url("./Photo/BG.jpg");
-    background-attachment: fixed;
-    background-position: center;
-    background: linea;
-    height: 100vh;
-    color: white;
-    font-family: 'Bricolage Grotesque', sans-serif;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./Photo/BG.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background: linea;
+  height: 100vh;
+  color: white;
+  font-family: "Bricolage Grotesque", sans-serif;
 }
 .Top {
-    font-size: 30px;
+  font-size: 30px;
 }
 a {
-    text-decoration: none;
-    color: white;
+  text-decoration: none;
+  color: white;
 }
-.name, .motto {
-    font-family: 'Caveat', cursive;
-    font-weight: bold;
+.name,
+.motto {
+  font-family: "Caveat", cursive;
+  font-weight: bold;
 }
 #textScript {
-    font-size: 22px;
-    line-height: 2;
+  font-size: 22px;
+  line-height: 2;
 }
-.carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-    width: 70%;
-    margin: auto;
-  }
 
-  @media only screen and (max-width: 414px) {
-    #textScript {
-        font-size: 4vw;
-        font-weight: bold;
-        padding: 0px;
-        line-height: normal;
-    }
-    .responSmaller {
-        font-size: 4vw;
-    }
-    .responwidth {
-        margin-right: 0px;    
-    }
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 414px) {
+  #textScript {
+    font-size: 4vw;
+    font-weight: bold;
+    padding: 0px;
+    line-height: normal;
   }
+  .responSmaller {
+    font-size: 4vw;
+  }
+  .responwidth {
+    margin-right: 0px;
+  }
+}
+
+
+  
+  

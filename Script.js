@@ -20,7 +20,7 @@ function WhatICanGive() {
 
 function Cv() {
     clearAll();
-    window.open("https://www.canva.com/design/DAE49_-W_bE/4qDgnzaoz6MgB_6xzLEVQw/view?utm_content=DAE49_-W_bE&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink");
+    window.open("./StylePhoto/Photo/CVKrzysztofAugustyniak.jpg");
     document.getElementById("textScript").style.fontFamily= 'Caveat';
     document.getElementById("textScript").style.fontSize= '30px';
     cv.classList.remove("d-none");
